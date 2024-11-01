@@ -1,5 +1,7 @@
 # Tautulli Poster Agent
 
+**Update [2024_11_01]**: It's worth noting that I have learned that the Tautulli dev (JonnyWong16) has created a [similar script](https://gist.github.com/JonnyWong16/b0e6b2761f8649d811f51866e682464b) that I believe does what this script does. I would recommend that script first, as it is likely to be maintained whereas this script will no longer be updated as I no longer have a use for either script. Replacing posters on movies has become part of my [Plexato](https://github.com/Blasman/Plexato) script logic as it makes more sense to replace posters going from Radarr to Plex rather than Tautulli to Plex (no delay, more control).
+
 Tautulli Poster Agent (aka TPA) is a [Tautulli](https://github.com/Tautulli/Tautulli) custom script to effectively "replace" [Plex's failing movie poster agent](https://forums.plex.tv/t/once-upon-a-time-in-the-west-metadata/852193). TPA uses direct links to TMDB and/or IMDb for poster images to replace the current poster image for 'Recently Added' movies. The functionality is the same as the 'enter a URL' option when editing a poster image via the Plex Web UI.
 
 There is also an **optional** user config within the script where you can set your [TMDB API KEY](https://www.themoviedb.org/settings/api) to enable the TMDB API lookup method. The TMDB API lookup method is theoretically more reliable than the other URL lookup methods (website designs change).
